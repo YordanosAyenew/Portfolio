@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const typingElement = document.getElementById ('typing');
-    const words = ['frontend Developer', 'and UI/UX Designer'];
+    const words = ['frontend Developer', 'UI/UX Designer'];
     let wordIndex = 0;
     let letterIndex = 0;
     let currentWord = '';
