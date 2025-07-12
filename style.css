@@ -238,7 +238,7 @@ span {
     }
 }
 
-
+/*project section css*/
 .projects-section {
   padding: 4rem 2rem;
   position: relative;
@@ -329,4 +329,40 @@ span {
   font-size: 0.9rem;
   display: inline-block;
   color: #5cfdbd;
+}
+
+/*skills section css*/
+
+.skills-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15rem;
+  margin-top: 100px;
+}
+
+.skill {
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.skill img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 5px #5cfdbd);
+}
+
+.skill p {
+  margin-top: 0.5rem;
+  color: #5cfdbd;
+  font-weight: bold;
+}
+
+.skill:hover {
+  transform: scale(1.1);
 }
