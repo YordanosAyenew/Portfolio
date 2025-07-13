@@ -273,11 +273,48 @@ span {
   box-shadow: 0 0 20px #5cfdbd;
 }
 
-.project-container {
+/* .project-container {
   padding: 2rem;
   position: relative;
   width: 50%;
+} */
+
+.projects-section {
+  position: relative;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  color: #fff;
 }
+
+/* Background image with blur */
+.projects-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('asset/BG.png'); /* ✅ replace with your image path */
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  transform: scale(1.1); /* prevents edge cropping from blur */
+  z-index: 0;
+  opacity: 0.8;
+}
+
+/* Make sure your actual content stays on top */
+.projects-section .timeline {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: Add semi-transparent background to each project card */
+.project-container .content {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(92, 253, 189, 0.2);
+}
+
 
 .project-container.left {
   left: 0;
