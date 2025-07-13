@@ -1,10 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const hamburger = document.querySelector ('.hamburger')
-    const nav = document.querySelector ('nav')
+     const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('nav');
+  const navLinks = document.querySelectorAll('nav a'); // Get all nav links
 
-    hamburger.addEventListener('click', () => {
-        nav.classList.toggle('active');
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+
+  // Close nav when a link is clicked
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('active');
     });
+  });
 
 
     const typingElement = document.getElementById ('typing');

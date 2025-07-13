@@ -67,6 +67,7 @@ nav a {
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
+    
 }
 
 nav a:hover,
@@ -86,6 +87,7 @@ nav a.active {
         top: 5rem;
         right: 0;
         width: 70%;
+        height: 100vh;
         border-bottom-left-radius: 2rem;
         padding: 2rem ;
         background-color: rgba(0, 0, 0, 0.7);
