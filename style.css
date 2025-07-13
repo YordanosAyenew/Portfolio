@@ -215,14 +215,14 @@ span {
 
 @media (max-width: 1000px) {
     .home {
-        gap: 4rem;
+        gap: 2rem;
     }
 }
 
 @media(max-width:995px) {
     .home {
         flex-direction: column;
-        margin: 5rem 4rem;
+        /* margin: 5rem 4rem; */
     }
 
     .home .home-content h3 {
@@ -235,7 +235,7 @@ span {
 
     .home-img img {
         width: 70vw;
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
     }
 }
 
@@ -286,7 +286,7 @@ span {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url('asset/BG.png'); /* ✅ replace with your image path */
+  background-image: url('asset/BG1.png'); /* ✅ replace with your image path */
   background-size:cover;
   background-position: center;
   filter: blur(10px);
