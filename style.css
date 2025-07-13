@@ -393,3 +393,49 @@ span {
 .skill:hover {
   transform: scale(1.1);
 }
+
+
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #111;
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  border-bottom: 1px solid #5cfdbd;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 1rem;
+  background-color: #5cfdbd;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #3fe6b4;
+}
