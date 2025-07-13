@@ -83,7 +83,7 @@ nav a.active {
     nav {
         position: absolute;
         display: none;
-        top: 5rem;
+        top: 0;
         right: 0;
         width: 70%;
         height: 100vh;
