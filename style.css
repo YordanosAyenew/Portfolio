@@ -273,11 +273,6 @@ span {
   box-shadow: 0 0 20px #5cfdbd;
 }
 
-/* .project-container {
-  padding: 2rem;
-  position: relative;
-  width: 50%;
-} */
 
 .projects-section {
   position: relative;
@@ -292,7 +287,7 @@ span {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background-image: url('asset/BG.png'); /* ✅ replace with your image path */
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   filter: blur(10px);
   transform: scale(1.1); /* prevents edge cropping from blur */
@@ -315,6 +310,11 @@ span {
   box-shadow: 0 0 15px rgba(92, 253, 189, 0.2);
 }
 
+.project-container {
+  padding: 2rem;
+  position: relative;
+  width: 50%;
+}
 
 .project-container.left {
   left: 0;
@@ -397,7 +397,7 @@ span {
 /*skills section css*/
 
 .skills-section {
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 0 2rem;
   text-align: center;
 }
 
@@ -431,6 +431,51 @@ span {
 }
 
 
+/*Education section*/
+.education-section {
+  padding: 4rem 2rem 0 2rem;
+  text-align: center;
+}
+
+.education-card {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border: 1px solid #5cfdbd;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(92, 253, 189, 0.3);
+  color: #fff;
+  text-align: left;
+}
+
+.education-card h3 {
+  font-size: 1.7rem;
+  color: #5cfdbd;
+}
+
+.education-card .school {
+  font-size: 2.5rem;
+  color: #ccc;
+}
+
+.education-card .duration {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
+.education-card .desc {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+/*contact section */
 .contact-section {
   padding: 4rem 2rem;
   text-align: center;
