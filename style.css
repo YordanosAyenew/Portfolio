@@ -444,6 +444,7 @@ span {
   padding: 40px 20px;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .cont-container {
@@ -465,6 +466,9 @@ span {
   position: absolute;
   top: -170px;
   left: -50px;
+    pointer-events: none;
+  user-select: none;
+
 }
 
 .imgimg img {
