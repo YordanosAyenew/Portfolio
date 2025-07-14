@@ -14,6 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+    // Close nav when clicking outside the nav or hamburger
+  document.addEventListener('click', (event) => {
+    const isClickInsideNav = nav.contains(event.target);
+    const isClickOnHamburger = hamburger.contains(event.target);
+
+    if (!isClickInsideNav && !isClickOnHamburger) {
+      nav.classList.remove('active');
+    }
+  });
+
+
 
     const typingElement = document.getElementById ('typing');
     const words = ['frontend Developer', 'UI/UX Designer'];
